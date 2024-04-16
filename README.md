@@ -2,6 +2,12 @@
 
 A rust device driver for the Epson RX8900SA/CE I2C-Bus Interface Real Time Clock Module.
 
+[RX8900CE | Real Time Clock | Product | Epson crystal device](https://www5.epsondevice.com/en/products/rtc/rx8900ce.html)
+
+[Brief Sheet](https://support.epson.biz/td/api/doc_check.php?dl=brief_RX8900CE&lang=en)
+
+[Application Manual](https://support.epson.biz/td/api/doc_check.php?dl=app_RX8900CE&lang=en)
+
 ## Usage
 
 ```rust
