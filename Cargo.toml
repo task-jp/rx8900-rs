@@ -1,6 +1,6 @@
 [package]
 name = "rx8900"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Tasuku Suzuki  <stasuku@gmail.com>"]
 description = "A rust device driver for the Epson RX8900SA/CE I2C-Bus Interface Real Time Clock Module."
