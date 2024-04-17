@@ -22,18 +22,17 @@ include = [
 
 [dependencies]
 chrono = { version = "0.4.34", default-features = false }
-cortex-m = { version = "0.7", optional = true }
-cortex-m-rt = { version = "0.7", optional = true }
-embedded-alloc = { version = "0.5.1", optional = true }
 embedded-hal = "0.2.6"
 heapless = "0.8"
-panic-probe = { version = "0.3", optional = true }
-rp-pico = { version = "0.9", optional = true }
-usb-device = { version = "0.3.2", optional = true }
-usbd-serial = { version = "0.2.1", optional = true }
 
-[features]
-rp2040 = ["cortex-m", "cortex-m-rt", "embedded-alloc", "panic-probe", "rp-pico", "usb-device", "usbd-serial"]
+[dev-dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+embedded-alloc = "0.5.1"
+panic-probe = "0.3"
+rp-pico = "0.9"
+usb-device = "0.3.2"
+usbd-serial = "0.2.1"
 
 [profile.dev]
 opt-level = 1
@@ -41,8 +40,3 @@ debug = true
 
 [profile.release]
 opt-level = 3
-
-[[example]]
-name = "rpi_pico"
-required-features = ["rp2040"]
-crate-type = ["bin"]
