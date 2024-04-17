@@ -4,6 +4,7 @@ version = "0.1.1"
 edition = "2021"
 authors = ["Tasuku Suzuki  <stasuku@gmail.com>"]
 description = "A rust device driver for the Epson RX8900SA/CE I2C-Bus Interface Real Time Clock Module."
+documentation = "https://docs.rs/rx8900"
 keywords = ["no-std", "rx8900", "rtc", "embedded", "embedded-hal-driver"]
 readme = "README.md"
 license = "MIT OR Apache-2.0"
