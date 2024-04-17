@@ -12,8 +12,6 @@
 
 - remove dependencies needed for examples
 
-- Documentation
-
 ## [0.1.1] - 2024-04-16
 
 ### Added
